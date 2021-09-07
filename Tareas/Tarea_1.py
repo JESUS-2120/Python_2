@@ -17,8 +17,11 @@ class Condiciones_Optimas():
     tipo_dna = "ADN-B"
 
     #Definimmos el constructor
-    def __init__(self, dna_seq):
+    def __init__(self, dna_seq, flagelos, cromosomas, comida):
         self.dna_seq = dna_seq
+        self.flagelos = flagelos
+        self.cromosomas = cromosomas
+        self.comida = comida
 
     #Definimmos los metodos de la clase
     def Estado_Celular(self):
@@ -100,5 +103,6 @@ class Condiciones_Salinas(Condiciones_Optimas):
     def Estado_Celular(self):
         print("Celula muerta :c")
 
-Coli = Condiciones_Salinas("")
+Coli = Condiciones_Salinas("AATTTCCG" , 1 , 3, "Fructosa")
 Coli.Estado_Celular()
+print(Coli.__dict__)
