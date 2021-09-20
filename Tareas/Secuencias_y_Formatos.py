@@ -19,7 +19,7 @@ CATEGORY
         Genomic Sequence
 
 Github
-
+        https://github.com/JESUS-2120/Python_2/blob/main/Tareas/Secuencias_y_Formatos.py
 
 INPUT
         Este programa recibe como input un archivo genbank y una lista con nombres de genes
