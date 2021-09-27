@@ -35,7 +35,7 @@ EXAMPLES
             <Residue PHE het=  resseq=11 icode= >,......]
 
 Github:
-
+        https://github.com/JESUS-2120/Python_2/blob/main/Tareas/Archivos_PDB.py
 '''
 
 #Importamos la libreria Bio
